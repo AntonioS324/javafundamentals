@@ -6,7 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
         //System.out.println('Hello Java");
-        lesson5Example();
+        //lesson5Example();
+        houseExample();
     }
 
 
@@ -24,15 +25,15 @@ public class Main {
         System.out.println(myLesson.kelvinToFahrenheit(497.34));
     }
 
-    public static void houseExample() {} {
+    public static void houseExample()  {
         System.out.println("Hello Java");
         House yourHouse = new House();
-        yourHouse.entranceDoorColor = "Green";
-        yourHouse.roofStyle = "Cedar";
-        yourHouse.foundationType = "Cinder Block";
-        yourHouse.totalWindows =32;
-        yourHouse.doorFunction();
-        System.out.println(yourHouse.roofStyle);
+        //yourHouse.entranceDoorColor = "Green";
+        //yourHouse.roofStyle = "Cedar";
+        //yourHouse.foundationType = "Cinder Block";
+        //yourHouse.totalWindows =32;
+        //yourHouse.doorFunction();
+        System.out.println(yourHouse.getFoundationType());
 
     }
 }

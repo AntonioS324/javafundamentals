@@ -24,7 +24,7 @@ public class Lesson4 {
 
     /* This primitive type has a value range of
      * -9,223,372,036,854,775,808 to
-     * 9,223,372,036,854,775,807
+     * 9,223,372,036,854 775,807
      * The class version is long */
     long myLong = 56864L;
 
@@ -35,7 +35,7 @@ public class Lesson4 {
 
     /* The primitive type has a value range of
      *1.7E-308 to 1.7E+308. The suffix d orD is optional.
-     * The clas vesrion is Double */
+     * The clas version is Double */
     double myDouble = 84.98;
     double myOtherDouble = 36.43;
 
